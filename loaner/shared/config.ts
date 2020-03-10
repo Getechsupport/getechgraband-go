@@ -82,7 +82,7 @@ export const CHROME_ENDPOINTS: EnvironmentsVariable = {
  * NOTE: Each key must be on a single-line!
  */
 export const CHROME_PUBLIC_KEYS: EnvironmentsVariable = {
-  prod: '{PROD_CHROME_KEY_PASTE}',
+  prod: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvbYN5q9fKl9Ag/PZ+VW7XwHCHcaslMkEezeu22dslPYZaz97JG+E5/jH7Ty4x5P4mCmW41NQGs/Eap52ZjZ7HrNclbW6y0WyrqA17iRBVccaAMlVOLeZ865uqQjRs3ajck+ZlypZWs7k63b0BAznMsyUhaVM5/6riB+0BEkLpxoJJMVkCi3Ui+gYG/O9dIsnjHKgYLze2Tb3qIsN4eBaM1t5t7479QPvm+piB2n2ECHOatdj4b8CQALIjHPlcN5XGsMEkNPYT8R9fPOtc/fEKDTD5boqyyhonlUcnYcI6rgkrel0HOxMJhx2/0QUDLKmJqqvqTdqisZAkC07GLRMuwIDAQAB',
   qa: '{QA_CHROME_KEY}',
   dev: '{DEV_CHROME_KEY}',
 };
@@ -239,11 +239,11 @@ export const HEARTBEAT: HeartbeatConfiguration = {
 export const TROUBLESHOOTING_INFORMATION =
 'Contact your IT department for assistance.';
 /** Phone number of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_PHONE = ['{ITPHONENUMBER}'];
+export const IT_CONTACT_PHONE = ['01473243489'];
 /** Website of IT; Placed on Manage/Troubleshoot page. */
-export const IT_CONTACT_WEBSITE = '{ITWEBSITE}';
+export const IT_CONTACT_WEBSITE = 'www.getech.co.uk';
 /** Email of IT; Placed on Manage/troubleshoot page. */
-export const IT_CONTACT_EMAIL = '{ITEMAIL}';
+export const IT_CONTACT_EMAIL = 'googlesupport@getech.co.uk';
 /** Failure message after 3 failure prompts occur. */
 export const FAILURE_MESSAGE = `Since this has failed a couple of times the
 application will now quit. If the issue persists contact your

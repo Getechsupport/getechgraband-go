@@ -99,7 +99,7 @@ SUPERADMINS_GROUP = 'technical-admins@gedu.demo.getech-test.uk'
 # The PROD server specific configurations.
 if ON_PROD:
   # The OAuth2 Client ID for the Chrome Application.
-  CHROME_CLIENT_ID = '{CHROMEOAUTH2ID}'
+  CHROME_CLIENT_ID = '840566958328-q9cgavm06v776aolor0gemmpesi3cep1.apps.googleusercontent.com'
   # The OAuth2 Client ID for the Web Application Frontend.
   WEB_CLIENT_ID = '840566958328-cqo9k9psiodtbbti006jlimp0ia4b2is.apps.googleusercontent.com'
   # The location of the Client Secrets file relative to the Bazel WORKSPACE for
